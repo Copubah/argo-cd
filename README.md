@@ -136,9 +136,12 @@ Key details visible in the UI:
 - Project: `default`
 - Repo: `https://github.com/Copubah/argo-cd.git`
 - Target revision: `HEAD`
+- Path: `k8s`
 - Destination: `in-cluster` / namespace `demo-app`
 - Sync Status: Synced
 - Health Status: Healthy
+- Created At: `05/17/2026 09:49:47 (21 minutes ago)`
+- Last Sync: `05/17/2026 10:04:22 (7 minutes ago)`
 
 ## Verify the Demo App
 
