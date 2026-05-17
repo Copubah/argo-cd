@@ -124,6 +124,22 @@ Sync Status:   Synced
 Health Status: Healthy
 ```
 
+## Argo CD UI
+
+Once the app is synced, the Argo CD Applications dashboard shows the `nginx-app`
+in a **Healthy / Synced** state:
+
+![Argo CD nginx-app synced](docs/argocd-ui.png)
+
+Key details visible in the UI:
+
+- Project: `default`
+- Repo: `https://github.com/Copubah/argo-cd.git`
+- Target revision: `HEAD`
+- Destination: `in-cluster` / namespace `demo-app`
+- Sync Status: Synced
+- Health Status: Healthy
+
 ## Verify the Demo App
 
 Check the deployed resources:
